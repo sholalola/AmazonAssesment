@@ -1,10 +1,9 @@
 Feature: Add to cart
-
   Background:
   Given user is on the homepage
 
 
-  @regression
+
   Scenario: Add monitor to cart
     Given a user enter "monitor" in search field
     And user select the first monitor on the list
